@@ -1,34 +1,41 @@
-# AquaRia — Toko Ikan Hias
+# Day 1 - Dokumentasi Workshop
 
-Website toko online sederhana untuk menampilkan dan mensimulasikan pembelian ikan hias serta makanan ikan.
+## Identitas
+- **Nama Lengkap:** Muhammad Fathi Rayyan
+- **Kelompok:** Stumble Guys
 
-## Fitur
-- Katalog 12 jenis ikan hias.
-- Katalog makanan ikan.
-- Filter kategori ikan dan pencarian produk.
-- Keranjang belanja dengan pengaturan jumlah barang.
-- Ringkasan pesanan simulasi.
-- Tampilan responsif untuk desktop dan ponsel.
+## Deskripsi Repository
+Repository ini berisi dokumentasi kegiatan Workshop Day 1 serta
+hasil praktik pembuatan website toko ikan hias AquaRia
+menggunakan HTML, CSS, dan JavaScript.
 
-## Cara Menjalankan
-1. Download atau clone repository ini.
-2. Buka folder `aquaria-hias` di Visual Studio Code.
-3. Buka file `index.html` menggunakan browser. Bisa juga memakai ekstensi Live Server di VS Code.
-4. Pastikan perangkat terhubung ke internet agar gambar produk dan Google Fonts dapat dimuat.
+## Tujuan Repository
+- Menyimpan dan mempublikasikan dokumentasi workshop.
+- Mendokumentasikan materi dan pengetahuan baru selama workshop.
+- Melatih penggunaan GitHub dan README.md.
 
-## Struktur File
-```text
-aquaria-hias/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── assets/              # Ilustrasi ikan dan pakan (file lokal)
-```
+## Dokumentasi Kegiatan Workshop
 
-## Catatan
-Website ini merupakan proyek front-end/demo. Keranjang dan checkout hanya simulasi, belum terhubung ke database, akun pengguna, stok, maupun sistem pembayaran. Gambar produk dimuat dari layanan gambar eksternal LoremFlickr sehingga membutuhkan koneksi internet.
+### 1. Rangkuman Materi
+- Prompt Engineering: Prompt adalah instruksi untuk AI. Prompt yang baik memuat Role, Task, Context, dan Format, sehingga hasilnya lebih tepat, relevan, dan terkontrol.
+-Git dan GitHub: Git adalah version control system lokal yang melacak perubahan file (dibuat Linus Torvalds, 2005). GitHub adalah platform online untuk menyimpan repository Git dan berkolaborasi. Alurnya: Working Directory, Staging Area, lalu Repository.
+-Setup dan Perintah Dasar: Install Git dan VS Code, atur identitas dengan git config, lalu pakai git init, git add ., git commit -m, git remote add, git push origin main, dan git pull origin main. Praktiknya membuat Student Task Planner dengan bantuan AI.
 
+### 2. Poin Penting / Pengetahuan Baru
+- Kualitas hasil AI bergantung pada prompt. Konteks yang jelas menghasilkan kode yang lebih sesuai kebutuhan.
+- Git dan GitHub berbeda tapi saling melengkapi. Git mencatat riwayat secara lokal, GitHub menyimpannya online. Siklusnya: ubah file, add, commit, push.
 
-## Gambar Produk
-Ilustrasi ikan dan pakan disimpan di folder `assets/` dan dipanggil menggunakan path relatif. Karena gambar disimpan bersama source code, gambar tidak bergantung pada layanan gambar eksternal.
+### 3. Pendapat Pribadi tentang Day 1
+Menurut Saya, di Osjur day 1 ini sangat bermanfaat bagi saya karna saya jadi paham kalau ternyata hasil AI sangat bergantung dengan kualitas prompt, saya juga jadi lebih tahu tentang jurusan TIK. Hal yang paling menarik buat saya adalah mengerjakan pembuatan repo dan push ke github. Bagian tersulit bagi saya adalah saat push file ke repo tapi malah error, ya walaupun setelah itu saya bisa memecahkannya.
+
+## Hasil Praktik
+Proyek: **AquaRia - Aquatic Store**, yaitu website toko ikan hias
+dengan katalog, pencarian, filter, keranjang, dan simulasi checkout.
+
+File utama: `index.html`, `style.css`, `script.js`
+
+## Struktur Repository
+- index.html
+- style.css
+- script.js
+- README.md
